@@ -1,0 +1,45 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+hr{
+    border:1px solid white;
+}
+#head{
+    float: right;
+    margin-top: 15px;
+}
+#inbox, #compose, #sent, #archived, #logout{
+    margin-top: 20px;
+}
+.form_submit_button{
+    text-align: center;
+}
+#success_message, #error_message{
+    display:none
+}
+.email_details{
+    list-style: none;
+}
+
+.email_details li p{
+    display: inline;
+    list-style: none;
+}
+#body{
+    color: white;
+    font-size: 18px;
+}
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email{
+    border: 2px solid white;
+    margin-top: 10px;
+}
+textarea {
+    min-height: 400px;
+    resize: none;
+}
+
